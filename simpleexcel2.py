@@ -254,7 +254,7 @@ if now() < s:
     window = tk.Tk()
     window.title('SmartTool')
     window.geometry('1000x500')
-    window.scrollable(True)
+    #window.scrollable(True)
     for fileName in fileList:
         if fileName[-3:len(fileName)] == "xls":
             v=fileName[-12:-4]
