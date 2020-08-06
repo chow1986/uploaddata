@@ -19,7 +19,6 @@ time.sleep(3)
 #inputData=browser.find_element_by_xpath('//*[@id="main-container"]/div/div/div/div/div/div[1]/div[1]/div/a[6]')
 #切换框架
 browser.switch_to.frame("iFrame4")
-
 #文件选择
 fileList = os.listdir(os.getcwd())
 #遍历文件夹中所有文件
